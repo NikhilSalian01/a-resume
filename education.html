@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil - Education</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #79b9f9;
+            color: #fff;
+            padding: 10px;
+            animation: fadeIn 1s ease-in-out; /* Fade in animation for the navigation */
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s ease-in-out; /* Smooth transition on hover */
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-in-out; /* Slide in animation for the section */
+        }
+
+        section h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        section h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        section p {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 1s ease-in-out; /* Fade in animation for the footer */
+        }
+
+        /* Keyframe animations */
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nikhil</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="personal.html">Personal</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Educational Background</h2>
+        
+        <h3>SSLC</h3>
+        <p>
+            Govt Highschool, Aliyoor<br>
+            Marks percentage: 85%
+               </p>
+
+        <h3>PUC</h3>
+        <p>
+            Jain PU College, Moodbidri<br>
+            Marks percentage: 82%
+               </p>
+
+        <h3>Diploma in Mechatronics Engineering</h3>
+        <p>
+            SNM Polytechnic, Moodbidri<br>
+            Marks Percentage: 84%
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nikhil. All rights reserved.</p>
+    </footer>
+</body>
+</html>

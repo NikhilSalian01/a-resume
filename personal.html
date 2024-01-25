@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil - Personal</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; 
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            border-bottom: 2px solid #fff; 
+            animation: fadeInDown 1s ease-out; 
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+            text-align: center;
+            animation: fadeInUp 1s ease-out; 
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s ease-in-out; 
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: slideIn 1s ease-in-out; 
+        }
+
+        section h2 {
+            color: #333;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        section h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+
+        section p {
+            margin-bottom: 20px;
+        }
+
+        section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        section ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            animation: fadeInUp 1s ease-out; 
+        }
+
+        /* Keyframe animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nikhil</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="personal.html">Personal</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Personal Information</h2>
+        
+        <p>
+            Hello! I'm Nikhil
+        </p>
+
+        <h3>Hobbies and Interests</h3>
+        <ul>
+            <li>Web development and programming</li>
+            <li>Watching Movies</li>
+            <li>Outdoor activities like hiking and Playing Cricket</li>
+        </ul>
+
+        <h3>Skills</h3>
+        <p>
+            In addition to my web development skills, I have experience with:
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React.js and Node.js</li>
+                <li>Responsive web design</li>
+            </ul>
+        </p>
+
+        <h3>Contact: 9480317299</h3>
+        <p>
+            Feel free to reach out to me at nikhilsalian01@gmail.com or connect with me on [LinkedIn/GitHub].
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nikhil. All rights reserved.</p>
+    </footer>
+</body>
+</html>

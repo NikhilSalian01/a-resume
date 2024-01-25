@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil - Resume</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            border-bottom: 1px solid #fff;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            animation: fadeInUp 1s ease-out; 
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.5);
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        section {
+            padding: 20px;
+            background-color: rgba(239, 147, 147, 0.9);
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-out;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #a28585;
+            padding: 1em;
+            text-align: center;
+            clear: both;
+            animation: fadeInUp 1s ease-out; 
+        }
+
+        /* Keyframe animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nikhil</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="personal.html">Personal</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Welcome to My Resume Website</h2>
+        <p>This is the homepage of my resume. Feel free to navigate to other sections using the links above.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Nikhil. All rights reserved.</p>
+    </footer>
+</body>
+</html>
